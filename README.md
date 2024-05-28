@@ -12,7 +12,7 @@ A small subset of the simulated datasets used in this study are included. The da
 - Shapes: 100 rows (datasets), 202 columns
 - The first 199 columns are the bins containing the photoluminescence (PL) counts
 - The last two columns contain the true peak locations
-- The third last column contains the specific total number of counts for the dataset (given the probabilistic nature of the simulation, datasets total successful counts cannot be precisely chosen ahead of time)
+- The third last column contains the specific number of average counts/bin for the dataset (given the probabilistic nature of the simulation, the dataset's successful average counts/bin cannot be precisely chosen ahead of time)
 
 ### Use With Function Bank
 The sample simulated datasets are formatted such that they can be processed by the CA out-of-the-box. These sets can be used to get a handle on how the function works. If you wish to replicate a small portion of the results using these datasets use the following parameters for CA(...):
@@ -20,3 +20,6 @@ The sample simulated datasets are formatted such that they can be processed by t
 - k_ys = 4
 - MW_range = [3, 4]
 - ver = 2
+
+  
+**Note**: The results shown in the paper processed 100,000 datasets for each value of average counts/bin and therefore may differ from results acquired from the smaller sample size provided here. 
