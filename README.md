@@ -1,5 +1,5 @@
 # Fast-characterization-of-optically-detected-magnetic-resonance-spectra-via-data-clustering
-This repository will contain the main functions and a sample set of simulated data used in the paper "Fast characterization of optically detected magnetic resonance spectra via data clustering".
+This repository contains the main functions and a sample set of simulated data used in the paper "Fast characterization of optically detected magnetic resonance spectra via data clustering".
 
 ## Function Bank
 - The Function_Bank.py file contains the main functions used in the paper including the custom Clustering Algorithm (CA), the data simulation function, and a couple of smaller companion functions. 
